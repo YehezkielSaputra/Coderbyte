@@ -10,7 +10,7 @@
 ## React Basics
 
 01. ### Bitmap Holes
-    Have the function BitmapHoles(strArr) take the array of strings stored in strArr, which will be a 2D matrix of 0 and 1’s, and determine how many holes, or contiguous regions of 0’s, exist in the matrix. A contiguous region is one where there is a connected group of 0’s going in one or more of four directions: up, down, left, or right. For example: if strArr is [“10111”, “10101”, “11101”, “11111”], then this looks like the following matrix:
+Have the function BitmapHoles(strArr) take the array of strings stored in strArr, which will be a 2D matrix of 0 and 1’s, and determine how many holes, or contiguous regions of 0’s, exist in the matrix. A contiguous region is one where there is a connected group of 0’s going in one or more of four directions: up, down, left, or right. For example: if strArr is [“10111”, “10101”, “11101”, “11111”], then this looks like the following matrix:
 
 1 0 1 1 1 <br/>
 1 0 1 0 1 <br/>
