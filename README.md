@@ -44,7 +44,8 @@ For the input above, your program should return 2 because there are two separate
         // loop through the remaining coordinates in the index array
         for (var k = c + 1; k < index.length; k++) {
             // if the two coordinates are adjacent, set the checker variable to true
-            if (index[k][0] === index[c][0] + 1 && index[k][1] === index[c][1] || index[k][0] === index[c][0] && index[k][1] === index[c][1] + 1) {
+            if (index[k][0] === index[c][0] + 1 && index[k][1] === index[c][1] ||
+                index[k][0] === index[c][0] && index[k][1] === index[c][1] + 1) {
                 checker = true;
             }
         }
